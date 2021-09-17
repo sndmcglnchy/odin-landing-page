@@ -1,10 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     box-sizing: border-box;
+  
 }
 
 header{
     display:flex;
-    background-color: #1F2937;
+    background-color: #414288;
     color:white;
     align-items:center;
     justify-content: space-evenly;
@@ -21,21 +25,23 @@ ul{
     padding:0;
     margin:0;
     display: flex;
-    gap:16px;
+    gap:20px;
 }
 a{
     text-decoration: none;
     color:white;
 }
-
+a:hover{
+    color:#D7B9D5;
+}
 .hero{
-    background-color: #1F2937;
+    background-color: #414288;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding:100px 50px;
-    gap:20px;
+    gap:100px;
     
 }
 h1{
@@ -49,7 +55,7 @@ h1{
     color: #E5E7EB;
 }
 .first-button{
-    background-color: #3882F6;
+    background-color: #5FB49C;
     color:white;
     border-radius: 8px;
     padding:5px 30px;
@@ -61,15 +67,14 @@ h1{
     width:500px;
 }
 .hero .right{
-    color:white;
-    background-color: grey;
-    
-    width:500px;
-    text-align: center;
-    display:flex;
+    /* color:#414288; */
+    /* background-color: #D7B9D5;     */
+    /* width:500px; */
+    /* text-align: center; */
+    /* display:flex;
     justify-content: center;
-    align-items: center;
-    padding: 150px 50px;
+    align-items: center; */
+    /* padding: 150px 50px; */
 }
 .first-button:hover, .call-button:hover{
     cursor:pointer;
@@ -93,17 +98,17 @@ h2{
 }
 .square{
     /* background-color: blueviolet; */
-    border: 3px solid #3882F6;
+    /* border: 3px solid #414288; */
     border-radius: 10px;
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
 }
 .text{
-    width:220px;
+    width:300px;
     text-align: center;
 }
 .quote{
-    background-color: #E5E7EB;
+    background-color: #D7B9D5;
     padding: 90px 0;
     display:flex;
     flex-direction: column;
@@ -123,10 +128,9 @@ h2{
 .quote .author{
     font-weight: bold;
     font-size:20px;
-    /* margin-left:auto; */
 }
 .action{
-    background-color: #3882F6;
+    background-color: #5FB49C;
     color:white;
     border-radius: 5px;
     padding:40px 10px;
@@ -135,8 +139,8 @@ h2{
     align-items: center;
     max-width: 1300px;
     margin:auto;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:100px;
+    margin-bottom:100px;
 
 }
 .action-text .bold{
@@ -155,7 +159,7 @@ h2{
 }
 footer{
     text-align: center;
-    background-color: #1F2937;
+    background-color: #414288;
     color:white;
     padding:20px 0;
 }
