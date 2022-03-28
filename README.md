@@ -1,4 +1,4 @@
-This Landing Page project will test my skills with HTML and CSS, with particular emphasis on Flexbox.
+This Landing Page project will test my skills with HTML and CSS, with particular emphasis on Flexbox. View the live preview here: https://sndmcglnchy.github.io/odin-landing-page/
 
 Images are all from Unsplash:
 
